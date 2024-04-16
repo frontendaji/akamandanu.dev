@@ -17,6 +17,11 @@
     border-radius: 50%;
 }
 
+.images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
 .aside h1{
     font-family: 'Poppins';
     color: var(--netral-color);
@@ -47,7 +52,10 @@
     color: var(--primary-color);
     font-family: 'Poppins';
     font-weight: 600;
+    cursor: pointer;
 }
+
+ 
 
 .socialMedia{
     display: flex;
@@ -64,6 +72,7 @@
     border: none;
     border-radius: 5px;
     color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .location{
