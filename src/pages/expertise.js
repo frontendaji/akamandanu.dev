@@ -11,6 +11,7 @@ export default function ExpertisePage() {
                 <meta name="keywords" content="Ajisaka Kamandanu Expertise" />
                 <meta name="author" content="Ajisaka Kamandanu" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
             </Head>
             <Expertise/>
         </Layout>

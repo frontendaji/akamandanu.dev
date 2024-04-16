@@ -3,7 +3,8 @@ import Styles from '../section/overview.module.css';
 export default function Overview() {
     return(
         <section className={Styles.overview}>
-            <h1>Hi there, I&apos;m Aji ! 👋</h1>
+            <h1>Overview</h1>
+            <h2>Hi there, I&apos;m Aji ! 👋</h2>
             <h2>About Me</h2>
             <ul>
                 <li>👀 I’m passionate about Front End Development.</li>

@@ -3,6 +3,7 @@ import Styles from "../section/expertise.module.css";
 export default function Expertise() {
     return(
         <section className={Styles.expertise}>
+            <h1>Expertise</h1>
             <h2>Programming Language</h2>
                 <div className={Styles.programing}>
                     <div className={Styles.html}>

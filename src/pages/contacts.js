@@ -11,6 +11,7 @@ export default function ContactsPages() {
                 <meta name="keywords" content="Contacts Ajisaka Kamandanu" />
                 <meta name="author" content="Ajisaka Kamandanu" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                
             </Head>
             <Contacts/>
         </Layout>
