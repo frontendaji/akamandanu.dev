@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://akamandanu-dev.vercel.app/sitemap.xml
