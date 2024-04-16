@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem 5rem;
+}
+
+@media screen and (max-width:576px) {
+    .main{
+        flex-direction: column;
+        padding: 4rem 1rem;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:786px){
+    .main{
+        flex-direction: column;
+        padding: 1rem 1rem;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+

@@ -1,0 +1,39 @@
+.contacts{
+    width: 100%;
+    padding: 4rem 2rem;
+    font-family: 'Poppins';
+    color: var(--netral-color);
+}
+
+.contacts h2{
+    font-size: 1.1em;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--accentOne-color);
+}
+
+.contacts ul{
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width:576px){
+    .contacts{
+        padding: 0;
+        max-width: 20rem;
+    }
+
+    .contacts h2{
+        font-size: 1em;
+    }
+
+    .contacts ul li{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:786px){
+    .contacts{
+        max-width: 25rem;
+        padding: 0;
+    }  
+}

@@ -1,0 +1,124 @@
+.aside{
+    max-width: 20rem;
+    padding: 3rem 0;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.avatar .images{
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.aside h1{
+    font-family: 'Poppins';
+    color: var(--netral-color);
+    font-weight: 800;
+}
+
+.aside h2{
+    font-size: 1em;
+    font-family: 'Poppins';
+    color: var(--accentOne-color);
+}
+
+.aside > p{
+    margin-top: 1rem;
+    font-size: 0.9em;
+    font-family: 'Poppins';
+    color: var(--netral-color);
+    font-weight: 200;
+}
+
+.aside > button{
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--accentTwo-color);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: var(--primary-color);
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 1rem;
+}
+
+.socialMedia button{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: var(--accentOne-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-color);
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.location img{
+    width: 20px;
+    height: 20px;
+}
+
+.location p{
+    color: var(--netral-color);
+    font-family: 'Poppins';
+    font-size: 0.9em;
+}
+
+@media screen and (max-width:576px){
+
+    .aside{
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .avatar .images{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .aside >p {
+        font-size: 0.8em;
+    }
+
+    .aside > button{
+        height: 2.2rem;
+        font-size: 0.8em;
+    }
+
+    .location p{
+        font-size: 0.8em;
+    }
+
+    .socialMedia button{
+        height: 2.2rem;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:786px){
+    .aside {
+        max-width: 25rem;
+        padding: 4rem 0;
+    }
+}

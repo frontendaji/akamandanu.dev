@@ -1,0 +1,150 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    width: 70rem;
+    height: 5rem;
+    position: relative;
+    background-color: var(--primary-color);
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: var(--accentTwo-color);
+    gap: 10px;
+}
+
+.logo img{
+    width: 50px;
+    height: 40px;
+}
+
+.logo h1{
+    font-weight: 700;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    color: var(--netral-color);
+    font-weight: 600;
+}
+
+.nav ul li a{
+    color: var(--netral-color);
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.menu span{
+    display: inline-block;
+    width: 1.5rem;
+    height: 2px;
+    background-color: var(--accentOne-color);
+}
+
+.navMobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    width: 100%;
+    height: 100vh;
+    transition: left 0.3s ease-in-out;
+}
+
+.navMobile ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navMobileActive{
+    left: 0;
+    transition: left 0.3s ease-in-out;
+}
+
+@media screen and (max-width:576px) {
+    
+    .nav{
+        width: 100%;
+        left: 0;
+        padding: 1.5rem;
+        position: fixed;
+    }
+    
+    .nav > ul{
+        display: none;
+    }
+
+    .nav .logo img{
+        width: 30px;
+        height: 25px;
+        z-index: 1000;
+    }
+
+    .logo h1{
+        font-size: 1em;
+        z-index: 1000;
+    }
+
+    .menu{
+        display: flex;
+        z-index: 1000;
+    }
+
+    .navMobile{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:786px) {
+    .nav{
+        
+        width: 100vw;
+        padding: 2rem;
+    }
+
+    .nav > ul{
+        display: none;
+        
+    }
+
+    .logo img{
+        width: 35px;
+        height: 29px;
+        z-index: 1000;
+    }
+
+    .logo h1{
+        font-size: 1.2em;
+        z-index: 1000;
+    }
+
+    .menu{
+        display: flex;
+        z-index: 1000;
+    }
+
+    .navMobile{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:1080px){
+    .nav{
+        width: 100vw;
+    }
+}
